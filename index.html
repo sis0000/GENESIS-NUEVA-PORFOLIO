@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Nueva - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+     <header class="header">
+        <div class="container header-content">
+            <div class="profile-pic">
+                <img src="pic0.png" class="default-pic">
+                <img src="pic1.png" class="hover-pic">
+            </div>
+            
+            <div class="profile-info">
+                <div class="name-section">
+                    <h1>Genesis Nueva</h1>
+                    <span class="verified">✓</span>
+                </div>
+                
+                <div class="location">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>Lagonoy, Camarines Sur, Philippines</span>
+                </div>
+                
+                <p class="profession">Computer Scientist | Full-Stack Developer | AI Enthusiast</p>
+                
+                <div class="action-buttons">
+                    <button class="btn btn-primary" onclick="window.open('https://calendly.com/genesis-nueva', '_blank')">
+                        <span>📅</span> Schedule a Call
+                    </button>
+                    <button class="btn btn-secondary" onclick="window.location.href='mailto:nuevagenesis09@gmail.com'">
+                        <span>✉️</span> Send Email
+                    </button>
+                    <button class="btn btn-secondary" onclick="window.open('https://facebook.com/nuevagenesis09', '_blank')">
+                        <span>👥</span> Visit my FB
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Add this theme toggle button -->
+            <div class="theme-toggle">
+                <button class="toggle-btn" id="themeToggle" aria-label="Toggle dark mode">
+                    <div class="toggle-icon">
+                        <span class="sun">☀️</span>
+                        <span class="moon">🌙</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Left Sidebar (Bigger) -->
+                <div class="left-sidebar">
+                    <!-- About Section -->
+                    <section class="card">
+                        <h2 class="section-title">
+                            <span>📄</span> About
+                        </h2>
+                        <div class="about-content">
+                            <p>I’m a fresh Computer Science graduate who loves building simple, practical, and modern digital solutions. I work mainly with JavaScript, Python, and PHP, and I enjoy creating clean web applications, automation tools, and small projects that solve real problems.</p> 
+                            <p>During my studies, I worked on different academic and personal projects that helped me understand how software, automation, and user experience come together. I’ve also supported small teams and local businesses with basic development and tech-related tasks whenever I could.</p> 
+                            <p>Recently, I’ve been getting deeper into AI-driven tools and automation, especially platforms like n8n. I’m exploring how AI can streamline workflows, enhance apps, and make everyday tasks more efficient. I’m continuously learning and building my skills as I grow in the field.</p>
+                        </div>
+                    </section>
+
+                    <!-- Tech Stack Section -->
+                    <section class="card">
+                        <div class="section-header">
+                            <h2 class="section-title">
+                                <span>⚙️</span> Tech Stack
+                            </h2>
+                            <a href="#" class="view-all">View All →</a>
+                        </div>
+                        
+                        <div class="tech-stack">
+                            <div class="tech-category">
+                                <h3>Frontend</h3>
+                                <div class="tech-tags">
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">TypeScript</span>
+                                    <span class="tag">React</span>
+                                    <span class="tag">Next.js</span>
+                                    <span class="tag">Vue.js</span>
+                                    <span class="tag">Tailwind CSS</span>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-category">
+                                <h3>Backend</h3>
+                                <div class="tech-tags">
+                                    <span class="tag">Node.js</span>
+                                    <span class="tag">Python</span>
+                                    <span class="tag">PHP</span>
+                                    <span class="tag">PostgreSQL</span>
+                                    <span class="tag">MongoDB</span>
+                                    <span class="tag">AWS</span>
+                                    <span class="tag">Docker</span>
+                                    <span class="tag">Kubernetes</span>
+                                    <span class="tag">GitHub Actions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Beyond Coding Section -->
+                    <section class="card">
+                        <h2 class="section-title">
+                            <span>📖</span> Beyond Coding
+                        </h2>
+                        <div class="beyond-coding">
+                            <p>When not writing code, I focus on learning about emerging technologies, minimalism, and startup culture.</p>
+                        </div>
+                    </section>
+
+                    <!-- Recent Certifications -->
+                    <section class="card">
+                        <div class="section-header">
+                            <h2 class="section-title">
+                                <span>🎓</span> Recent Certifications
+                            </h2>
+                            <a href="#" class="view-all">View All →</a>
+                        </div>
+                        
+                        <div class="certifications-list">
+                            <div class="cert-item">
+                                <h3>AI at Work: Real-World Workflows for Startups</h3>  
+                                <p>ESKWELABS</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3>HOUR OF CODE</h3>   
+                                <p>Google.org</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3>4-hour Webinar on Data Privacy Awareness
+of the Department of Information and Communications Technol</h3>
+                                <p>DICT - REGION IX</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3>Maximizing The Pillars of Human Resource Managemnent for Leadership and Communication Skills</h3>
+                                <p>Oracle</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Member of Section -->
+                    <section class="card">
+                        <h2 class="section-title">
+                            <span>🏢</span> A member of
+                        </h2>
+                        <div class="member-list">
+                            <div class="member-item">
+                                <span>Analytics & Artificial Intelligence Association of the Philippines (AAIP)</span>
+                                <a href="#" class="external-link">↗</a>
+                            </div>
+                            <div class="member-item">
+                                <span>Philippine Software Industry Association</span>
+                                <a href="#" class="external-link">↗</a>
+                            </div>
+                        </div>
+                    </section>
+
+                     <!-- Social Links -->
+                    <section class="card">
+                        <h2 class="section-title">
+                            <span>🔗</span> Social Links
+                        </h2>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <span class="social-icon">💼</span>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span class="social-icon">💻</span>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span class="social-icon">📷</span>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </section>
+
+                    
+                </div>
+
+                <!-- Right Sidebar (Smaller) -->
+                <div class="right-sidebar">
+                    <!-- Experience Section -->
+                    <section class="card">
+                        <h2 class="section-title">
+                            <span>💼</span> Experience
+                        </h2>
+                        <div class="experience-list">
+                            <div class="exp-item active">
+                                <div class="exp-dot"></div>
+                                <div class="exp-content">
+                                    <h3>BS Computer Science</h3>
+                                    <p>Partido State University</p>
+                                </div>
+                                <span class="exp-year">2026</span>         
+                            </div>
+                            <div class="exp-item">
+                                <div class="exp-dot"></div>
+                                <div class="exp-content">
+                                    <h3>Civil Service Exam Passer (Professional)</h3>
+                                    <p>Philippine Civil Service Commission</p>
+                                </div>
+                                <span class="exp-year">2026</span>
+                            </div>
+                            <div class="exp-item">
+                                <div class="exp-dot"></div>
+                                <div class="exp-content">
+                                    <h3>Prediction and Decision Support System</h3>
+                                    <p>Thesis Porject</p>
+                                </div>
+                                <span class="exp-year">2025</span>
+                            </div>
+                            <div class="exp-item">
+                                <div class="exp-dot"></div>
+                                <div class="exp-content">
+                                    <h3>Intern – Information Technology</h3>
+                                    <p>Cooperative Development Authority</p>
+                                </div>
+                                <span class="exp-year">2024</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Recent Projects -->
+                    <section class="card">
+                        <div class="section-header">
+                            <h2 class="section-title">
+                                <span>🚀</span> Recent Projects
+                            </h2>
+                            <a href="#" class="view-all">View All →</a>
+                        </div>
+                        
+                        <div class="projects-list">
+                            <div class="project-item">
+                                <h3>Prediction and Decidion Support System for Crimes and Road Accident</h3>
+                                <p>Tools for LGU's/PNP for Predicting Crimes/Road Accidents</p>
+                                <a href="#" class="project-link">system.dev</a>
+                            </div>
+                            <div class="project-item">
+                                <h3>BASE404</h3>
+                                <p>Online coding bootcamp</p>
+                                <a href="#" class="project-link">base-404.com</a>
+                            </div>
+                            <div class="project-item">
+                                <h3>DIIN.PH</h3>
+                                <p>AI-powered wardrobe assistant</p>
+                                <a href="#" class="project-link">diin.ph</a>
+                            </div>
+                            <div class="project-item">
+                                <h3>DYNAMIS Workout Tracker</h3>
+                                <p>AI-powered workout tracker</p>
+                                <a href="#" class="project-link">dynamis-app.online</a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Recommendations -->
+                    <section class="card">
+                        <div class="section-header">
+                            <h2 class="section-title">
+                                <span>💬</span> Recommendations
+                            </h2>
+                        </div>
+                        
+                        <div class="recommendations-slider">
+                            <div class="recommendation-item active">
+                               <p class="recommendation-text">"Genesis completed his internship at the Cooperative Development Authority (CDA). During his stay, he showed strong initiative and adaptability, handling various IT-related tasks with professionalism. His time with us helped him build practical skills and a better understanding of real-world processes, and he consistently delivered quality work throughout his training."</p>
+                                <div class="recommendation-author">
+                                    <strong>ATTY. EMELIO D. ESCUETA III</strong>
+                                    <span>Regional Director, Cooperative Development Authority</span>
+                                </div>
+                            </div>
+                            <div class="slider-dots">
+                                <span class="dot"></span>
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Contact Info -->
+                    <section class="card">
+                        <h2 class="section-title">
+                            <span>📧</span> Email
+                        </h2>
+                        <p class="contact-email">nuevagenesis09@gmail.com</p>
+                        
+                        <h3 class="subsection-title">
+                            <span>💬</span> Let's Talk
+                        </h3>
+                        <a href="https://calendly.com/genesis-nueva" target="_blank" class="schedule-call-link">Schedule a Call →</a>
+                        
+                        <h3 class="subsection-title">
+                            <span>👥</span> Facebook
+                        </h3>
+                        <a href="#" class="community-link">Direct Message on FB →</a>
+                    </section>
+                   
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Chat Button -->
+    <button class="chat-button" id="chatButton">
+        💬 Chat with Genesis
+    </button>
+
+    <!-- Chat Modal -->
+    <div class="chat-modal" id="chatModal">
+        <div class="chat-header">
+            <h3>💬 Chat with Genesis</h3>
+            <button class="close-chat" id="closeChat">✕</button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="chat-message bot-message">
+                <p>Hi! I'm Genesis Nueva. How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="sendMessage">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
